@@ -1,0 +1,23 @@
+
+/* declaramos com una variable para poder ser utilizada en todo el proyecto */
+:root{
+    --background: #f89198;
+}
+
+#animaciones{
+    width: 500px;
+    height: 400px;
+    background-color: var(--background);
+    position: relative;
+    animation: mover 4s infinite alternate;
+}
+
+@keyframes mover{
+    0%{
+        top:30px
+    }
+    50%{
+        left: 100px;
+    }
+    
+}
